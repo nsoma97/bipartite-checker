@@ -1,5 +1,5 @@
 # Bipartite-checker
-Short code to check whether a graph is biparite
+A simple program that checks whether a graph is bipartite.
 
 ## Usage
 The usage is demonstrated in the tests. The graph is represented by a list of edges.
