@@ -1,7 +1,7 @@
 from typing import List, Tuple
+from enum import Enum
 
 from bipartite_checker.graph import Graph
-from enum import Enum
 
 
 class Color(Enum):

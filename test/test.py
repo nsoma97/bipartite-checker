@@ -1,6 +1,7 @@
+import pytest
+
 from bipartite_checker.checker import is_bipartite
 from bipartite_checker.graph import Graph
-import pytest
 
 expected = [
     ([[1, 2], [2, 3], [3, 1]], False),
