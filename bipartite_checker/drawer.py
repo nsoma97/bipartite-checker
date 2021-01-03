@@ -16,4 +16,4 @@ def draw_bipartite(graph: Graph):
         nx_graph.add_edge(u_v, v_v)
 
     nx.draw(nx_graph, node_color=[c.value.lower() for c in graph.node_colors], with_labels=True)
-    plt.savefig('readme_out.png', format='PNG')
+    plt.savefig('out.png', format='PNG')

@@ -33,7 +33,7 @@ edge_list = [[1, 2], [2, 3], [3, 4], [4, 1], [4, 5], [5, 6], [1, 6]]
 g = Graph().from_edges(edge_list)
 
 draw_bipartite(g)
-# output: readme_out.png
+# output: out.png
 ```
 
 The output image looks like this:
