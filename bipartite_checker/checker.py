@@ -96,4 +96,6 @@ def is_bipartite(graph: Graph):
                     traversal_queue = {node}
                     break
 
+    graph.node_colors = node_colors
+
     return True
